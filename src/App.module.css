@@ -6,6 +6,10 @@
   gap: 16px;
 
   cursor: default;
+
+  padding: 0 16px;
+
+  text-align: center;
 }
 
 .Container h1 {
@@ -26,7 +30,6 @@
 
 .Container p {
   max-width: 568px;
-  text-align: center;
 }
 
 .Container ul {

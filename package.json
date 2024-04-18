@@ -8,8 +8,9 @@
   "scripts": {
     "dev": "parcel --dist-dir build",
     "build": "parcel build --no-source-maps --no-scope-hoist",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "pnpm run clear && pnpm run build",
+    "deploy": "gh-pages -d build",
+    "clear": "rm -rf build && rm -rf .parcel-cache"
   },
   "keywords": [],
   "author": "Volchunovich Artem @volchunovich",
