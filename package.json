@@ -2,7 +2,7 @@
   "name": "volchunovich-cv",
   "version": "1.0.0",
   "description": "",
-  "source": "public/index.html",
+  "source": "index.html",
   "scripts": {
     "dev": "parcel --dist-dir build",
     "build": "parcel build --no-source-maps --no-scope-hoist"

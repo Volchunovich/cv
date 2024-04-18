@@ -22,13 +22,16 @@ export const App: FC = () => {
       </p>
       <ul>
         <li>
-          <a target="_blank" href="">
+          <a target="_blank" href="https://github.com/Volchunovich">
             GitHub
           </a>
         </li>
         <li>|</li>
         <li>
-          <a target="_blank" href="">
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/artem-volchunovich-96534b233/"
+          >
             LinkedIn
           </a>
         </li>
