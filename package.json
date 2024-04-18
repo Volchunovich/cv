@@ -2,10 +2,13 @@
   "name": "volchunovich-cv",
   "version": "1.0.0",
   "description": "",
-  "source": "index.html",
+  "homepage": "https://volchunovich.github.io/cv",
+  "source": "public/index.html",
+  "private": true,
   "scripts": {
     "dev": "parcel --dist-dir build",
-    "build": "parcel build --no-source-maps --no-scope-hoist"
+    "build": "parcel build --no-source-maps --no-scope-hoist",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "Volchunovich Artem @volchunovich",
@@ -19,6 +22,7 @@
     "@parcel/transformer-typescript-tsc": "^2.11.0",
     "@types/react": "^18.2.48",
     "@types/react-dom": "^18.2.18",
+    "gh-pages": "^6.1.1",
     "parcel": "^2.11.0",
     "prettier": "^3.2.2",
     "process": "^0.11.10",
