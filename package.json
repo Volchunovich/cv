@@ -1,0 +1,32 @@
+{
+  "name": "volchunovich-cv",
+  "version": "1.0.0",
+  "description": "",
+  "source": "public/index.html",
+  "scripts": {
+    "dev": "parcel --dist-dir build",
+    "build": "parcel build --no-source-maps --no-scope-hoist"
+  },
+  "keywords": [],
+  "author": "Volchunovich Artem @volchunovich",
+  "license": "ISC",
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@parcel/config-default": "^2.11.0",
+    "@parcel/transformer-typescript-tsc": "^2.11.0",
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "parcel": "^2.11.0",
+    "prettier": "^3.2.2",
+    "process": "^0.11.10",
+    "typescript": "^5.3.3"
+  },
+  "targets": {
+    "default": {
+      "distDir": "./build"
+    }
+  }
+}

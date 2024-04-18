@@ -1,0 +1,36 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+
+  cursor: default;
+}
+
+.Container h1 {
+  display: inline-block;
+  background-image: linear-gradient(270deg, rgb(110, 156, 255) 18.4315%, rgb(255, 89, 211) 54.0356%, rgb(210, 143, 255) 107.697%, rgb(255, 255, 255) 193.148%);
+  background-clip: text;
+  --webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+
+.Container a:hover {
+  background-image: linear-gradient(270deg, rgb(110, 156, 255) 18.4315%, rgb(255, 89, 211) 54.0356%, rgb(210, 143, 255) 107.697%, rgb(255, 255, 255) 193.148%);
+  background-clip: text;
+  --webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.Container p {
+  max-width: 568px;
+  text-align: center;
+}
+
+.Container ul {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+}

@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  width: 100vw;
+  height: 100vh;
+
+  color: #fff;
+  background-color: #000;
+
+  font-family: 'Inter', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+      "slnt" 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+main {
+  display: grid;
+  place-items: center;
+
+  height: 100%;
+  width: 100%;
+}
